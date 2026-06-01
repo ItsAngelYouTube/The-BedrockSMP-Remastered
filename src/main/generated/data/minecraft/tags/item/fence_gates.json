@@ -1,6 +1,5 @@
 {
   "values": [
-    "kitty:cherry_birch_fence_gate",
     "kitty:white_fence_gate",
     "kitty:light_gray_fence_gate",
     "kitty:gray_fence_gate",
@@ -16,6 +15,8 @@
     "kitty:blue_fence_gate",
     "kitty:purple_fence_gate",
     "kitty:magenta_fence_gate",
-    "kitty:pink_fence_gate"
+    "kitty:pink_fence_gate",
+    "kitty:cherry_birch_fence_gate",
+    "kitty:golden_birch_fence_gate"
   ]
 }

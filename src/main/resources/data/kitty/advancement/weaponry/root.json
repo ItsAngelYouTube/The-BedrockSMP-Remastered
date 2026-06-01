@@ -6,7 +6,7 @@
     },
     "title": "Weaponry",
     "description": "The power of weapons and tools!",
-    "background": "kitty:gui/advancements/backgrounds/kitty",
+    "background": "kitty:gui/advancements/backgrounds/weaponry",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

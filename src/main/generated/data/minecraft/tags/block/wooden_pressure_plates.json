@@ -1,6 +1,5 @@
 {
   "values": [
-    "kitty:cherry_birch_pressure_plate",
     "kitty:white_pressure_plate",
     "kitty:light_gray_pressure_plate",
     "kitty:gray_pressure_plate",
@@ -16,6 +15,8 @@
     "kitty:blue_pressure_plate",
     "kitty:purple_pressure_plate",
     "kitty:magenta_pressure_plate",
-    "kitty:pink_pressure_plate"
+    "kitty:pink_pressure_plate",
+    "kitty:cherry_birch_pressure_plate",
+    "kitty:golden_birch_pressure_plate"
   ]
 }

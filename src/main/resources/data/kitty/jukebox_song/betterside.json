@@ -1,8 +1,8 @@
 {
   "comparator_output": 14,
   "description": {
-    "translate": "item.kitty.music_disc_betterside.desc"
+    "translate": "jukebox_song.kitty.betterside"
   },
   "length_in_seconds": 402.0,
-  "sound_event": "kitty:betterside"
+  "sound_event": "kitty:music_disc.betterside"
 }

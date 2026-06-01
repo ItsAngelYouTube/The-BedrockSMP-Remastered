@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "halloween:music_disc_terrifying_tears"
+            "items": "kitty:music_disc_terrifying_tears"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.adventure.do_do_not.desc"
+      "translate": "§5Acquire the Ter§4§krif§ryin§4§kg§r§5 Te§4§kar§rs§5 music disc"
     },
     "icon": {
       "count": 1,
-      "id": "halloween:music_disc_terrifying_tears"
+      "id": "kitty:music_disc_terrifying_tears"
     },
     "title": {
-      "translate": "advancements.adventure.do_do_not.title"
+      "translate": "§5Ter§4§krif§r§5yin§4§kg§r§5 Te§4§kar§r§5s"
     },
     "frame": "challenge"
   },

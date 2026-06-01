@@ -71,15 +71,7 @@
       }
     ]
   },
-  "bye_justin_hi_justin": {
-    "sounds": [
-      {
-        "name": "kitty:records/bye_justin_hi_justin",
-        "stream": true
-      }
-    ]
-  },
-  "the_tale_of_toothless": {
+  "music_disc.the_tale_of_toothless": {
     "sounds": [
       {
         "name": "kitty:records/the_tale_of_toothless",
@@ -87,7 +79,15 @@
       }
     ]
   },
-  "steve_lava_chicken": {
+  "music_disc.bye_justin_hi_justin": {
+    "sounds": [
+      {
+        "name": "kitty:records/bye_justin_hi_justin",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.steve_lava_chicken": {
     "sounds": [
       {
         "name": "kitty:records/steve_lava_chicken",
@@ -95,7 +95,7 @@
       }
     ]
   },
-  "lava_tearsstep": {
+  "music_disc.lava_tearsstep": {
     "sounds": [
       {
         "name": "kitty:records/lava_tearsstep",
@@ -103,7 +103,7 @@
       }
     ]
   },
-  "terrifying_tears": {
+  "music_disc.terrifying_tears": {
     "sounds": [
       {
         "name": "kitty:records/terrifying_tears",
@@ -111,7 +111,7 @@
       }
     ]
   },
-  "ultra_terrifying_tears": {
+  "music_disc.ultra_terrifying_tears": {
     "sounds": [
       {
         "name": "kitty:records/ultra_terrifying_tears",
@@ -119,7 +119,7 @@
       }
     ]
   },
-  "betterside": {
+  "music_disc.betterside": {
     "sounds": [
       {
         "name": "kitty:records/betterside",
@@ -127,7 +127,7 @@
       }
     ]
   },
-  "12": {
+  "music_disc.12": {
     "sounds": [
       {
         "name": "kitty:records/12",
@@ -135,7 +135,7 @@
       }
     ]
   },
-  "explorer": {
+  "music_disc.explorer": {
     "sounds": [
       {
         "name": "kitty:records/explorer",
@@ -143,12 +143,202 @@
       }
     ]
   },
-  "bye_justin_hi_justin_remastered": {
+  "music_disc.bye_justin_hi_justin_remastered": {
     "sounds": [
       {
         "name": "kitty:records/bye_justin_hi_justin_remastered",
         "stream": true
       }
+    ]
+  },
+  "music_disc.pancake": {
+    "sounds": [
+      {
+        "name": "kitty:pancake/pancake",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.waffle": {
+    "sounds": [
+      {
+        "name": "kitty:pancake/waffle",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_the_tale_of_toothless": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_the_tale_of_toothless",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_bye_justin_hi_justin": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_bye_justin_hi_justin",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_steve_lava_chicken": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_steve_lava_chicken",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_lava_tearsstep": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_lava_tearsstep",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_terrifying_tears": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_terrifying_tears",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_ultra_terrifying_tears": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_ultra_terrifying_tears",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_betterside": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_betterside",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_12": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_12",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_explorer": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_explorer",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_bye_justin_hi_justin_remastered": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_bye_justin_hi_justin_remastered",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_pancake": {
+    "sounds": [
+      {
+        "name": "kitty:pancake/reversed/reversed_pancake",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_waffle": {
+    "sounds": [
+      {
+        "name": "kitty:pancake/reversed/reversed_waffle",
+        "stream": true
+      }
+    ]
+  },
+  "item.armor.equip_byzantium": {
+    "subtitles": "subtitles.kitty.item.armor.equip_byzantium",
+    "sounds": [
+      "kitty:item/armor/equip_byzantium1",
+      "kitty:item/armor/equip_byzantium2",
+      "kitty:item/armor/equip_byzantium3",
+      "kitty:item/armor/equip_byzantium4",
+      "kitty:item/armor/equip_byzantium5",
+      "kitty:item/armor/equip_byzantium6"
+    ]
+  },
+  "music_disc.already_ahead": {
+    "sounds": [
+      {
+        "name": "kitty:records/already_ahead",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_already_ahead": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_already_ahead",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.template_disc": {
+    "sounds": [
+      {
+        "name": "kitty:records/template_disc",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.dark_inside": {
+    "sounds": [
+      {
+        "name": "kitty:records/dark_inside",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reversed_dark_inside": {
+    "sounds": [
+      {
+        "name": "kitty:records/reversed/reversed_dark_inside",
+        "stream": true
+      }
+    ]
+  },
+  "item.armor.equip_diamarite": {
+    "subtitles": "subtitles.kitty.item.armor.equip_diamarite",
+    "sounds": [
+      "kitty:item/armor/equip_diamarite1",
+      "kitty:item/armor/equip_diamarite2",
+      "kitty:item/armor/equip_diamarite3",
+      "kitty:item/armor/equip_diamarite4"
+    ]
+  },
+  "item.armor.equip_corruptionite": {
+    "subtitles": "subtitles.kitty.item.armor.equip_corruptionite",
+    "sounds": [
+      "kitty:item/armor/equip_corruptionite1",
+      "kitty:item/armor/equip_corruptionite2",
+      "kitty:item/armor/equip_corruptionite3",
+      "kitty:item/armor/equip_corruptionite4"
+    ]
+  },
+  "item.armor.equip_gilded_netherite": {
+    "subtitles": "subtitles.kitty.item.armor.equip_gilded_netherite",
+    "sounds": [
+      "kitty:item/armor/equip_gilded_netherite1",
+      "kitty:item/armor/equip_gilded_netherite2",
+      "kitty:item/armor/equip_gilded_netherite3",
+      "kitty:item/armor/equip_gilded_netherite4"
     ]
   }
 }

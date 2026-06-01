@@ -18,14 +18,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.adventure.oh_no.desc"
+      "translate": "K§4§ki§rll§r a H§4§kap§rpy Gh§4§kas§rt"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:dried_ghast"
     },
     "title": {
-      "translate": "advancements.adventure.oh_no.title"
+      "translate": "§4§kThe Unholy"
     },
     "frame": "challenge"
   },

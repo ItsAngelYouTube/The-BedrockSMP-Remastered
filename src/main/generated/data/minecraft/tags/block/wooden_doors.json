@@ -1,6 +1,5 @@
 {
   "values": [
-    "kitty:cherry_birch_door",
     "kitty:white_door",
     "kitty:dark_oak_door_with_windows",
     "kitty:light_gray_door",
@@ -17,6 +16,8 @@
     "kitty:blue_door",
     "kitty:purple_door",
     "kitty:magenta_door",
-    "kitty:pink_door"
+    "kitty:pink_door",
+    "kitty:cherry_birch_door",
+    "kitty:golden_birch_door"
   ]
 }

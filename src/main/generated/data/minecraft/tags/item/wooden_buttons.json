@@ -1,6 +1,5 @@
 {
   "values": [
-    "kitty:cherry_birch_button",
     "kitty:white_button",
     "kitty:light_gray_button",
     "kitty:gray_button",
@@ -16,6 +15,8 @@
     "kitty:blue_button",
     "kitty:purple_button",
     "kitty:magenta_button",
-    "kitty:pink_button"
+    "kitty:pink_button",
+    "kitty:cherry_birch_button",
+    "kitty:golden_birch_button"
   ]
 }

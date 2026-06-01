@@ -1,6 +1,5 @@
 {
   "values": [
-    "kitty:cherry_birch_stairs",
     "kitty:white_stairs",
     "kitty:light_gray_stairs",
     "kitty:gray_stairs",
@@ -16,6 +15,8 @@
     "kitty:blue_stairs",
     "kitty:purple_stairs",
     "kitty:magenta_stairs",
-    "kitty:pink_stairs"
+    "kitty:pink_stairs",
+    "kitty:cherry_birch_stairs",
+    "kitty:golden_birch_stairs"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "kitty:weaponry/armor/golden_armor",
+  "parent": "kitty:weaponry/armor/byzantium_armor",
   "criteria": {
     "diamond_armor": {
       "conditions": {

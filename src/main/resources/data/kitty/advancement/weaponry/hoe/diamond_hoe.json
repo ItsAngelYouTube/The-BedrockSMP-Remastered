@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kitty:weaponry/hoe/golden_hoe",
+  "parent": "kitty:weaponry/hoe/byzantium_hoe",
   "criteria": {
     "hoe": {
       "trigger": "minecraft:inventory_changed",
