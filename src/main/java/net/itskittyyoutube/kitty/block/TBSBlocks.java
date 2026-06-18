@@ -602,6 +602,15 @@ public class TBSBlocks {
             //properties -> new ShelfBlock(properties.mapColor(MapColor.BLUE)
                     //.instrument(NoteBlockInstrument.BASS).sounds(BlockSoundGroup.SHELF).burnable().strength(2.0F, 3.0F)));
 
+    //public static final Block SHELFSHELF = register("shelfshelf",
+            //ShelfBlock::new,
+            //AbstractBlock.Settings.create()
+                    //.mapColor(BLUE_PLANKS.getDefaultMapColor())
+                    //.instrument(NoteBlockInstrument.BASS)
+                    //.sounds(BlockSoundGroup.SHELF)
+                    //.burnable()
+                    //.strength(2.0F, 3.0F));
+
     //Blocks
     public static final Block DIAMARITE_BLOCK = registerBlock("diamarite_block",
             properties -> new Block(properties.mapColor(MapColor.BLACK).requiresTool()
@@ -634,6 +643,10 @@ public class TBSBlocks {
             properties -> new Block(properties.mapColor(MapColor.GOLD).requiresTool()
                     .strength(30.0F, 1200.0F).sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
+    public static final Block ENERGY_BLOCK = registerBlock("energy_block",
+            properties -> new Block(properties.mapColor(MapColor.DIAMOND_BLUE).requiresTool()
+                    .strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+
     //Extra
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
         Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TBS.MOD_ID, name))));
@@ -652,9 +665,20 @@ public class TBSBlocks {
                         .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TBS.MOD_ID, name)))));
     }
 
-    public static AbstractBlock.Settings createFlowerPotSettings() {
-        return AbstractBlock.Settings.create().breakInstantly().nonOpaque().pistonBehavior(PistonBehavior.DESTROY);
-    }
+    //private static Block register(String id,
+                                  //Function<AbstractBlock.Settings, Block> factory,
+                                  //AbstractBlock.Settings settings) {
+        //RegistryKey<Block> key = RegistryKey.of(
+                //RegistryKeys.BLOCK,
+                //Identifier.of(TBS.MOD_ID, id)
+        //);
+
+        //return Registry.register(
+                //Registries.BLOCK,
+                //Identifier.of(TBS.MOD_ID, id),
+                //factory.apply(settings.registryKey(key))
+        //);
+    //}
 
     public static void registerBlocks() {
         TBS.LOGGER.info("Registering Mod Blocks for " + TBS.MOD_ID);

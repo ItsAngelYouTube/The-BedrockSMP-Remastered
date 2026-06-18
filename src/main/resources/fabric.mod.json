@@ -3,7 +3,7 @@
   "id": "kitty",
   "version": "${version}",
   "name": "The-BedrockSMP Remastered",
-  "description": "The-BedrockSMP is back - 1.21.10 Update",
+  "description": "The-BedrockSMP is a feature-packed Fabric mod for Minecraft 1.21.x. It adds custom blocks, items, music discs, and gameplay enhancements, with built-in resource packs and optional Biomes O’ Plenty and Voice Chat support.",
   "authors": [
     "ItsKittyYouTube"
   ],
