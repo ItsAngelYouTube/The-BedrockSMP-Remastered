@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
+group = "net.itskittyyoutube.kitty" // 👈 IMPORTANT: change this to your real namespace
 version = project.mod_version
-group = project.maven_group
 
 base {
     archivesName = project.bedrocksmp_archives_base_name
@@ -65,19 +65,21 @@ jar {
     }
 }
 
-// configure the maven publication
+//
+// ✅ MAVEN PUBLISHING (THIS IS THE IMPORTANT PART YOU WERE MISSING)
+//
 publishing {
     publications {
-        create("mavenJava", MavenPublication) {
+        mavenJava(MavenPublication) {
             from components.java
+
+            // optional but recommended: clearer artifact naming
+            artifactId = project.bedrocksmp_archives_base_name
         }
     }
 
-    // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
     repositories {
-        // Add repositories to publish to here.
-        // Notice: This block does NOT have the same function as the block in the top level.
-        // The repositories here will be used for publishing your artifact, not for
-        // retrieving dependencies.
+        // 🟢 LOCAL MAVEN (THIS ENABLES modImplementation USAGE)
+        mavenLocal()
     }
 }
